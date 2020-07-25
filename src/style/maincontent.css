@@ -3,6 +3,7 @@
 
 .main-content {
   margin-left: 160px;
+  width: 60%;
 }
 
 .trending-blogs-title{
@@ -13,7 +14,7 @@
 .cards-trending {
   display: flex;
   justify-content: space-between;
-  width: 60%;
+  /* width: 60%; */
 
 }
 

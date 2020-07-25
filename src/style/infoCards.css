@@ -1,0 +1,41 @@
+.info-card {
+  box-shadow: 1px 1px #cccccc;
+  border-radius: 10px;
+  background-color: white;
+  margin: .6rem 0;
+  padding: .6rem;
+  display: flex;
+  justify-content: space-between;
+  /* width: 20%; */
+}
+
+.info-card-icon-div {
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+}
+.info-text-div{
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-card-text{
+  font-size: 8px;
+}
+
+.info-card-info{
+  font-weight: bold;
+}
+
+.info-card-icon {
+  padding: 6px;
+  border-radius: 8px;
+  width: 16px;
+}
+
+
+.arrow-div {
+  align-self: center;
+  cursor: pointer;
+}

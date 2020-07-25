@@ -4,6 +4,7 @@ import Card from './Card';
 import TopBar from './TopBar';
 import IntroCard from './IntroCard';
 
+
 export default class MainContent extends Component {
   constructor(props) {
     super(props);
@@ -13,8 +14,7 @@ export default class MainContent extends Component {
   }
 
   render(){
-    return <div className="main-content">
-      <TopBar />
+    return (<div className="main-content">
       <IntroCard 
         title="Hi Alif Baba."
         content="Welcome back John Doe. We are glad you are here. Inspire the best work in people, enable them to achieve their goals."
@@ -41,7 +41,9 @@ export default class MainContent extends Component {
           claps="1.6k"
         />
       </div>
-    </div>
+
+      
+    </div>)
   }
 
 }
