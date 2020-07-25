@@ -1,3 +1,25 @@
+
+
+
 .main-content {
-  margin-left: 70px;
+  margin-left: 160px;
+}
+
+.trending-blogs-title{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.cards-trending {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+
+}
+
+@media only screen and (max-width:600px){
+  .cards-trending {
+    width: auto;
+    flex-direction: column;
+  }
 }
