@@ -1,0 +1,56 @@
+.top-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-name-container{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+.bell-container{
+  padding-right: 8px;
+}
+
+.name-div {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  padding-right: 8px;
+}
+
+.language {
+  padding-right: 14px;
+  color: #757575;
+  font-size: 14px;
+}
+
+.name {
+  color: #757575;
+  font-size: 14px;
+}
+
+.sub-name {
+  color: #a3a3a3;
+  font-size: 8px;
+}
+
+.dp {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 100%;
+}
+
+@media only screen and (max-width:600px) {
+  .top-bar-container{
+    flex-direction: column;
+  }
+  .profile-name-container{
+    width: auto;
+  }
+}

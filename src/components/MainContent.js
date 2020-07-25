@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import '../style/maincontent.css' 
 import Card from './Card';
+import TopBar from './TopBar';
+import IntroCard from './IntroCard';
 
 export default class MainContent extends Component {
   constructor(props) {
@@ -12,6 +14,11 @@ export default class MainContent extends Component {
 
   render(){
     return <div className="main-content">
+      <TopBar />
+      <IntroCard 
+        title="Hi Alif Baba."
+        content="Welcome back John Doe. We are glad you are here. Inspire the best work in people, enable them to achieve their goals."
+      />
       <p className="trending-blogs-title ">Trending Blogs</p>
       <div className="cards-trending">
 

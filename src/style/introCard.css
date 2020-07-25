@@ -1,0 +1,36 @@
+.intro-card {
+  padding: 14px;
+  border-radius: 20px;
+  width: 60%;
+  margin: 2rem .4rem ;
+  background-color: #fafafa;
+  display: flex;
+}
+
+.intro-card-title{
+    font-weight: 450;
+    font-size: 18px;
+}
+
+.intro-card-button{
+  background-color: black;
+  color: white;
+  padding: 4px 6px;
+  font-size: 12px;
+  border-radius: 6px;
+  border: solid black;
+}
+
+.intro-card-image-container {
+  margin-top: -2rem;
+}
+
+.intro-card-image{
+  width: 140px;
+}
+
+@media only screen and (max-width:600px){
+  .intro-card {
+    width: auto;
+  }
+}
