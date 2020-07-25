@@ -1,0 +1,95 @@
+.filter-table-container {
+  margin-top: 2rem;
+}
+
+.title-buttons-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-title-span{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.table-filter-span{
+  font-size: 14px;
+}
+
+.filter-select-status{
+  display: inline;
+  position: relative;
+}
+
+.table-container {
+  margin-top: 1rem;
+  overflow-x:auto
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-header{
+  background-color: #f0f0f0;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: normal;
+  
+}
+tr{
+  color: #333;
+  background-color: #fafafa;
+}
+tr:hover {
+  color: white;
+  background-color: #333;
+}
+
+.middle-col-th{
+  border-right: 1px solid #c4c4c4;
+  border-left: 1px solid #c4c4c4;
+}
+
+.middle-col-td {
+  border-right: 1px solid #999999;
+  border-left: 1px solid #999999;
+}
+
+.error{
+  color: red;
+  font-size: 12px;
+}
+
+.table-filter-span{
+  font-size: 12px;
+  margin-right: 6px;
+}
+
+.filter-div input {
+  width: 140px;
+  border-radius: 4px;
+  padding: 6px;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+}
+
+select{
+  margin-right: 6px;
+  width: 140px;
+  border-radius: 4px;
+  padding: 6px;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  background-color: white;
+  overflow: hidden;
+  cursor: pointer;
+}
+select div{
+  background-color: white;
+}

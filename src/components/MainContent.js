@@ -3,6 +3,7 @@ import '../style/maincontent.css'
 import Card from './Card';
 import TopBar from './TopBar';
 import IntroCard from './IntroCard';
+import FilterTable from './FilterTable';
 
 
 export default class MainContent extends Component {
@@ -42,6 +43,7 @@ export default class MainContent extends Component {
         />
       </div>
 
+      <FilterTable />
       
     </div>)
   }
