@@ -18,9 +18,16 @@
 
 }
 
+@media only screen and (max-width:900px){
+  .main-content{
+    width: 80%;
+  }
+}
+
 @media only screen and (max-width:600px){
   .cards-trending {
     width: auto;
     flex-direction: column;
   }
 }
+

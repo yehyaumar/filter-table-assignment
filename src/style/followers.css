@@ -24,6 +24,8 @@
 .follower-images-container{
   display: flex;
   margin-top: 10px;
+  overflow: auto;
+  white-space: nowrap;
 }
 
 .follower-dp-div{

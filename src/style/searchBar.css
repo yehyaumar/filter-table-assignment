@@ -1,3 +1,5 @@
+
+
 .search-bar-container input[type=text]{
   padding: 12px 12px 12px 38px;
   border: none;
@@ -12,8 +14,9 @@
   width: 100%; 
 }
 
+
 @media only screen and (max-width:600px){
-  .search-bar-container input[type=text]{
+  .search-bar-container{
     width: 100%;
   }
 }

@@ -13,14 +13,18 @@ export default class SideNav extends Component {
   render() {
     return (
       <div className="sidenav">
-        <MenuItem name="triangle" isactive={true}/>
-        <MenuItem name="home" isactive={false}/>
-        <MenuItem name="foursquare" isactive={true}/>
-        <MenuItem name="calendar" isactive={false}/>
-        <MenuItem name="box" isactive={false}/>
-        <MenuItem name="settings" isactive={true}/>
-        <MenuItem name="close" isactive={false}/>
-        
+        <div>
+          <MenuItem name="triangle" isactive={true} />
+          <MenuItem name="home" isactive={false} />
+          <MenuItem name="foursquare" isactive={true} />
+          <MenuItem name="calendar" isactive={false} />
+          <MenuItem name="box" isactive={false} />
+          <MenuItem name="settings" isactive={true} />
+        </div>
+        <div>
+          <MenuItem name="close" isactive={false} />
+        </div>
+
       </div>
     )
   }

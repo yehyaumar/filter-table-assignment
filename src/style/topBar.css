@@ -9,7 +9,6 @@
   padding: 10px;
   display: flex;
   align-items: center;
-
 }
 
 .bell-container{
@@ -49,9 +48,13 @@
 
 @media only screen and (max-width:600px) {
   .top-bar-container{
-    flex-direction: column;
+    flex-flow: column wrap; 
+    align-content: flex-end; 
+
   }
   .profile-name-container{
-    width: auto;
+    width: 100%;
+  justify-content: flex-end;
+  align-self: center;
   }
 }

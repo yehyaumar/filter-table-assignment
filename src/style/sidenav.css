@@ -5,7 +5,9 @@
   z-index: 1;
   top: 30px;
   left: 30px;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: black;
   padding: 14px ;
   border-radius: 20px;

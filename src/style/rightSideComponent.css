@@ -8,3 +8,10 @@
   margin: 2rem 1.6rem;
   
 }
+
+@media only screen and (max-width:900px){
+  .right-side-container{
+    margin-left: 160px;
+    width: 75%;
+  }
+}
