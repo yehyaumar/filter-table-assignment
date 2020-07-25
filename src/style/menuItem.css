@@ -1,0 +1,30 @@
+
+.menu-item {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 18px;
+  margin-top: 10px;
+}
+
+.menu-item-active {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 18px;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 50% 0 0 50%;
+}
+
+.triangle-item{
+  border-radius: 50%;
+}
+.triangle-item-active{
+  border-radius: 50%;
+}
+
+.icons {
+  width: 16px;
+}
+
