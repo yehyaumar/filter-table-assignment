@@ -20,7 +20,10 @@ export default class MainContent extends Component {
         title="Hi Alif Baba."
         content="Welcome back John Doe. We are glad you are here. Inspire the best work in people, enable them to achieve their goals."
       />
-      <p className="trending-blogs-title ">Trending Blogs</p>
+      <div className="trending-blogs-div">
+        <span className="trending-blogs-title ">Trending Blogs</span>
+        <span className="view-all-link">View All</span>
+      </div>
       <div className="cards-trending">
 
         <Card

@@ -9,6 +9,6 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: black;
-  padding: 14px ;
+  padding: 14px 0px 14px 14px;
   border-radius: 20px;
 }

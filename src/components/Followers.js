@@ -43,6 +43,18 @@ export default class Followers extends Component {
             url="face3.png"
             caption="Joe"
           />
+          <FollowerImageInfo
+            url="face2.jpg"
+            caption="May"
+          />
+          <FollowerImageInfo
+            url="face3.png"
+            caption="Steve"
+          />
+          <FollowerImageInfo
+            url="face1.jpeg"
+            caption="Joe"
+          />
         </div>
       </div>
 

@@ -13,6 +13,7 @@
 
 .bell-container{
   padding-right: 8px;
+  cursor: pointer;
 }
 
 .name-div {
@@ -27,6 +28,7 @@
   padding-right: 14px;
   color: #757575;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .name {
@@ -44,6 +46,7 @@
   height: 40px;
   border: 2px solid black;
   border-radius: 100%;
+  cursor: pointer;
 }
 
 @media only screen and (max-width:600px) {

@@ -2,11 +2,13 @@ import React from 'react';
 import '../style/menuItem.css';
 
 export default function MenuItem (props){
-  console.log(props)
   return (
-    <a className={props.isactive? 
-      `menu-item-active ${props.name==="triangle"? "triangle-item": "" }`: 
-      `menu-item ${props.name==="triangle"? "triangle-item": "" }`} href="/h">
+    // this is just to give triangle item a different styling or we could just create a separate MenuItem Component for it
+    <a className={(props.isactive && props.name === "triangle")? `triangle-item-active `:
+      (props.isactive && props.name !== "triangle")? "menu-item-active":
+      (props.isactive === false && props.name === "triangle")? "triangle-item":
+      "menu-item"
+    } href="/" onClick={(e) => props.onClick(e, props.name)}>
 
       <img 
         className="icons"
